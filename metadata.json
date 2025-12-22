@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Block World",
+  "description": "A high-performance 3D block-building sandbox game built with React, Three.js, and Gemini AI. Explore, build, and get architectural inspiration from AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
