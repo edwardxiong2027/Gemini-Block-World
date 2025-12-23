@@ -18,3 +18,15 @@ View your app in AI Studio: https://ai.studio/apps/drive/1fDwHc7gFZHNzWt2IW67iTh
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Firebase Hosting
+
+1. Create `.env.local` from `.env.example` and fill in your Firebase web config values.
+2. Install the Firebase CLI (choose one):
+   `npm i -g firebase-tools`
+   `npx firebase-tools login`
+3. If you need a different project, update `.firebaserc` or run:
+   `firebase use --add`
+4. Build and deploy:
+   `npm run build`
+   `firebase deploy --only hosting`
