@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "geminiworld-202512",
     "public": "dist",
     "ignore": [
       "firebase.json",
